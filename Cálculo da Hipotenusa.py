@@ -1,0 +1,7 @@
+#co - cateto oposto
+#ca - cateto adjacente
+#hi - hipotenusa
+co = float(input('Comprimento do cateto oposto? '))
+ca = float(input('Comprimento do cateto adjacente? '))
+hi = (co ** 2 + ca ** (1/2))
+print('A hipotenusa vai medir {:.3f}'.format(hi))
